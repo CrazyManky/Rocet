@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c5e0bb51cb919449cbcb24ea66a7e9, type: 3}
+  m_Name: ShopItems
+  m_EditorClassIdentifier: 
+  _backgrounds:
+  - ID: 0
+    ShopSprite: {fileID: 21300000, guid: e2d6655dcec12544ebce2f3bdd0beebe, type: 3}
+    BackgroundSprite: {fileID: 21300000, guid: f7a4fd5a037b0084f9aad975343d1e56, type: 3}
+    IsUnlock: 1
+    Price: 5000
+  - ID: 1
+    ShopSprite: {fileID: 21300000, guid: 7e6d6bf7f565b08438d1db592e2aa743, type: 3}
+    BackgroundSprite: {fileID: 21300000, guid: b6643c62ff4a3d040a51f91d2aaab270, type: 3}
+    IsUnlock: 1
+    Price: 5000
+  - ID: 2
+    ShopSprite: {fileID: 21300000, guid: c74780e74ce89214cb51b1af94477d0a, type: 3}
+    BackgroundSprite: {fileID: 21300000, guid: 5056ae8be4a559342aa968cb46e700ad, type: 3}
+    IsUnlock: 1
+    Price: 5000
+  - ID: 3
+    ShopSprite: {fileID: 21300000, guid: 7f7b9b0ef5e676a4db1fdcf6369ead34, type: 3}
+    BackgroundSprite: {fileID: 21300000, guid: d6280ecf38d531747a732cc4533388b9, type: 3}
+    IsUnlock: 1
+    Price: 5000
+  - ID: 4
+    ShopSprite: {fileID: 21300000, guid: 2db57c0b905191040a135a96d1a84058, type: 3}
+    BackgroundSprite: {fileID: 21300000, guid: 941b0505a83a3904eb6d844b6760df1b, type: 3}
+    IsUnlock: 1
+    Price: 5000
+  _shipsPlayer:
+  - ID: 0
+    ShopSprite: {fileID: 21300000, guid: 835eea4766ee74f4c9de203e47719401, type: 3}
+    GameSprite: {fileID: 21300000, guid: 0e5862e27b0fd6b46a8f0b41ae28dea2, type: 3}
+    IsUnlock: 0
+    Price: 5000
+  - ID: 1
+    ShopSprite: {fileID: 21300000, guid: ba9684e93882b2c4b8c9df88e2e841cb, type: 3}
+    GameSprite: {fileID: 21300000, guid: 009bf98063cb8294d979945142dccaef, type: 3}
+    IsUnlock: 1
+    Price: 5000
+  - ID: 2
+    ShopSprite: {fileID: 21300000, guid: 2f6ac4dfb94390c47810b02c5b42c062, type: 3}
+    GameSprite: {fileID: 21300000, guid: 7b3954597a58a1248bea9fbd108b39f3, type: 3}
+    IsUnlock: 0
+    Price: 5000
+  - ID: 3
+    ShopSprite: {fileID: 21300000, guid: c4d5179d95803f64ba922b43f1d5efd4, type: 3}
+    GameSprite: {fileID: 21300000, guid: 5734a7a360ea4d343a0b523a6225e44b, type: 3}
+    IsUnlock: 0
+    Price: 5000
+  - ID: 4
+    ShopSprite: {fileID: 21300000, guid: 0e4a80e324e63474d86c290f35dd6cff, type: 3}
+    GameSprite: {fileID: 21300000, guid: ca9ede83a281efe48b18b8b7479fa0a9, type: 3}
+    IsUnlock: 0
+    Price: 5000
+  _buffItems:
+  - ID: 0
+    ShopSprite: {fileID: 21300000, guid: e9605a6e5b583f44a9019eb9ac095e32, type: 3}
+    IsUnlock: 0
+    Price: 5000
+  - ID: 1
+    ShopSprite: {fileID: 21300000, guid: aa1d9e4eef5e7f744b9a4b25ec2c9e34, type: 3}
+    IsUnlock: 0
+    Price: 5000
+  - ID: 2
+    ShopSprite: {fileID: 21300000, guid: d31c2cc9ecd55e44284007fa70515cd0, type: 3}
+    IsUnlock: 0
+    Price: 5000
+  - ID: 3
+    ShopSprite: {fileID: 21300000, guid: f2fb5203fe49437428c27a290cfa9394, type: 3}
+    IsUnlock: 0
+    Price: 5000
+  ActiveBackground: {fileID: 21300000, guid: b6643c62ff4a3d040a51f91d2aaab270, type: 3}
+  ActiveShip: {fileID: 21300000, guid: 7b3954597a58a1248bea9fbd108b39f3, type: 3}
+  ActiveBuff:
+    ID: 0
+    ShopSprite: {fileID: 21300000, guid: e9605a6e5b583f44a9019eb9ac095e32, type: 3}
+    IsUnlock: 0
+    Price: 5000
