@@ -16,27 +16,27 @@ MonoBehaviour:
   - ID: 0
     ShopSprite: {fileID: 21300000, guid: e2d6655dcec12544ebce2f3bdd0beebe, type: 3}
     BackgroundSprite: {fileID: 21300000, guid: f7a4fd5a037b0084f9aad975343d1e56, type: 3}
-    IsUnlock: 1
+    IsUnlock: 0
     Price: 5000
   - ID: 1
     ShopSprite: {fileID: 21300000, guid: 7e6d6bf7f565b08438d1db592e2aa743, type: 3}
     BackgroundSprite: {fileID: 21300000, guid: b6643c62ff4a3d040a51f91d2aaab270, type: 3}
-    IsUnlock: 1
+    IsUnlock: 0
     Price: 5000
   - ID: 2
     ShopSprite: {fileID: 21300000, guid: c74780e74ce89214cb51b1af94477d0a, type: 3}
     BackgroundSprite: {fileID: 21300000, guid: 5056ae8be4a559342aa968cb46e700ad, type: 3}
-    IsUnlock: 1
+    IsUnlock: 0
     Price: 5000
   - ID: 3
     ShopSprite: {fileID: 21300000, guid: 7f7b9b0ef5e676a4db1fdcf6369ead34, type: 3}
     BackgroundSprite: {fileID: 21300000, guid: d6280ecf38d531747a732cc4533388b9, type: 3}
-    IsUnlock: 1
+    IsUnlock: 0
     Price: 5000
   - ID: 4
     ShopSprite: {fileID: 21300000, guid: 2db57c0b905191040a135a96d1a84058, type: 3}
     BackgroundSprite: {fileID: 21300000, guid: 941b0505a83a3904eb6d844b6760df1b, type: 3}
-    IsUnlock: 1
+    IsUnlock: 0
     Price: 5000
   _shipsPlayer:
   - ID: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   - ID: 1
     ShopSprite: {fileID: 21300000, guid: ba9684e93882b2c4b8c9df88e2e841cb, type: 3}
     GameSprite: {fileID: 21300000, guid: 009bf98063cb8294d979945142dccaef, type: 3}
-    IsUnlock: 1
+    IsUnlock: 0
     Price: 5000
   - ID: 2
     ShopSprite: {fileID: 21300000, guid: 2f6ac4dfb94390c47810b02c5b42c062, type: 3}
@@ -85,6 +85,6 @@ MonoBehaviour:
   ActiveShip: {fileID: 21300000, guid: 7b3954597a58a1248bea9fbd108b39f3, type: 3}
   ActiveBuff:
     ID: 0
-    ShopSprite: {fileID: 21300000, guid: e9605a6e5b583f44a9019eb9ac095e32, type: 3}
+    ShopSprite: {fileID: 0}
     IsUnlock: 0
     Price: 5000
